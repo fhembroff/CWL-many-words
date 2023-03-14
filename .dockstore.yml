@@ -1,8 +1,14 @@
 version: 1.2
 workflows:
   - subclass: CWL
+    name: Words
     primaryDescriptorPath: workflows/words/main.cwl
     testParameterFiles:
       - workflows/words/inputs.json
     authors:
       - name: Flynn Hembroff
+  - subclass: CWL
+    name: md5sum
+    primaryDescriptorPath: workflows/md5sum/md5-sum.cwl
+    testParameterFiles:
+      - workflows/md5sum/input.json
