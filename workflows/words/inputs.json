@@ -1,7 +1,7 @@
 {
   "words": {
     "class": "File",
-    "path": "mieliestronk-words.txt"
+    "path": "s3://flynn-test-bucket/mieliestronk-words.txt"
   },
   "vowels": ["a","e","i","o","u"]
 }
