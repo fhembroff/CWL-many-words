@@ -16,5 +16,7 @@ tools:
   - subclass: CWL
     name: BASIC-CWL-FROM-TUTORIAL
     primaryDescriptorPath: workflows/example/example.cwl
+    authors:
+      - name: Flynn Hembroff
 
 
