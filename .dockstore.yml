@@ -12,3 +12,9 @@ workflows:
     primaryDescriptorPath: workflows/md5sum/md5-sum.cwl
     testParameterFiles:
       - workflows/md5sum/input.json
+tools:
+  - subclass: CWL
+    name: BASIC-CWL-FROM-TUTORIAL
+    primaryDescriptorPath: workflows/example/example.cwl
+
+
