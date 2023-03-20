@@ -1,4 +1,4 @@
 {
-    "script_file": {"class": "File", "path": "make-a-little-data.js"},
-    "script_argument_count": 2
+    "script_file": {"class": "File", "path": "s3://flynn-test-bucket/make-data.js"},
+    "script_argument_count": 10
 }

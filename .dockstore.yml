@@ -12,6 +12,12 @@ workflows:
     primaryDescriptorPath: workflows/md5sum/md5-sum.cwl
     testParameterFiles:
       - workflows/md5sum/input.json
+  - subclass: CWL
+    name: ManyJobs
+    primaryDescriptorPath: workflows/manyjobs/manyjobs.cwl
+    testParameterFiles:
+      - workflows/words/inputs.json
+      - workflows/manyjobs/inputs.tiny.json
 tools:
   - subclass: CWL
     name: BASIC-CWL-FROM-TUTORIAL
